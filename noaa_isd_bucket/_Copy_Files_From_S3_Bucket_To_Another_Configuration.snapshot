@@ -17,7 +17,7 @@
           } ],
           "componentType" : "CONNECTION",
           "destination" : {
-            "comments" : "",
+            "comments" : "testing",
             "groupId" : "5048a525-05a8-33c9-bd58-e3ae9641d9ae",
             "id" : "cf53f957-654a-341c-a120-ec4b44ecb933",
             "name" : "UpdateAttribute",
@@ -418,7 +418,7 @@
           "prioritizers" : [ ],
           "selectedRelationships" : [ "success" ],
           "source" : {
-            "comments" : "",
+            "comments" : "testing",
             "groupId" : "5048a525-05a8-33c9-bd58-e3ae9641d9ae",
             "id" : "cf53f957-654a-341c-a120-ec4b44ecb933",
             "name" : "UpdateAttribute",
@@ -1572,7 +1572,7 @@
             "group" : "org.apache.nifi",
             "version" : "1.15.3"
           },
-          "comments" : "",
+          "comments" : "testing",
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
@@ -1789,6 +1789,56 @@
           "schedulingStrategy" : "TIMER_DRIVEN",
           "style" : { },
           "type" : "org.apache.nifi.processors.standard.PutFile",
+          "yieldDuration" : "1 sec"
+        }, {
+          "autoTerminatedRelationships" : [ ],
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-standard-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.15.3"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "5048a525-05a8-33c9-bd58-e3ae9641d9ae",
+          "identifier" : "5f7ade95-82cb-3750-8cf7-e551dfb5a407",
+          "name" : "LogMessage",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 4015.490342983153,
+            "y" : 1387.919223020001
+          },
+          "properties" : {
+            "log-level" : "info"
+          },
+          "propertyDescriptors" : {
+            "log-message" : {
+              "displayName" : "Log message",
+              "identifiesControllerService" : false,
+              "name" : "log-message",
+              "sensitive" : false
+            },
+            "log-level" : {
+              "displayName" : "Log Level",
+              "identifiesControllerService" : false,
+              "name" : "log-level",
+              "sensitive" : false
+            },
+            "log-prefix" : {
+              "displayName" : "Log prefix",
+              "identifiesControllerService" : false,
+              "name" : "log-prefix",
+              "sensitive" : false
+            }
+          },
+          "runDurationMillis" : 0,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.standard.LogMessage",
           "yieldDuration" : "1 sec"
         }, {
           "autoTerminatedRelationships" : [ ],

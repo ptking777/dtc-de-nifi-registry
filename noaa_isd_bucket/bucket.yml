@@ -2,9 +2,9 @@ flows:
   93cf7596-1636-42c9-85f3-cc3e51f80fa6:
     ver: 1
     file: _Copy_Files_From_S3_Bucket_To_Another_Configuration.snapshot
-    comments: test 2
+    comments: 'test: log message'
     author: anonymous
-    created: 1646689770925
+    created: 1646690473550
     flowName: ' Copy_Files_From_S3_Bucket_To_Another Configuration'
     flowDesc: |2-
 
