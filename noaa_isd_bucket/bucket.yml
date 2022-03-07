@@ -1,0 +1,13 @@
+flows:
+  93cf7596-1636-42c9-85f3-cc3e51f80fa6:
+    ver: 1
+    file: _Copy_Files_From_S3_Bucket_To_Another_Configuration.snapshot
+    comments: test 2
+    author: anonymous
+    created: 1646689770925
+    flowName: ' Copy_Files_From_S3_Bucket_To_Another Configuration'
+    flowDesc: |2-
+
+      Copy_Files_From_S3_Bucket_To_Another Configuration
+layoutVer: 1
+bucketId: 40308ca5-ddde-4001-8402-cc1a065c0498
